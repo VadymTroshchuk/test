@@ -1,0 +1,108 @@
+@font-face {
+  font-family: "Magra";
+  src: url("../fonts/Magra-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Red Hat Text";
+  src: url("../fonts/RedHatText-Medium.ttf");
+}
+
+
+@font-face {
+  font-family: "Aleo";
+  src: url("../fonts/Aleo-Bold.ttf");
+};
+
+@font-face {
+  font-family: "Aleo";
+  src: url("../fonts/Aleo-BoldItalic.ttf");
+};
+
+*{
+  box-sizing: border-box;
+}
+body{
+  background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1460px;
+  margin: 0 auto;
+  padding: 0 10px;
+
+}
+
+li{
+  list-style: none;
+};
+
+header{
+  display: block;
+}
+
+.header{
+  background-color: rgba(242, 120, 92, 0.7);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.header-container{
+  min-height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  background-image: url('../svg/logo.svg');
+  background-repeat: no-repeat;
+}
+.logo-text{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  font-family: 'Magra';
+  color: #FFFFFF;
+  margin-left: 40px;
+}
+
+
+.header-nav{
+ max-width: 720px;
+}
+
+.nav-list{
+  display: flex;
+  align-content: space-between;
+}
+
+.nav-list_item{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  font-family: 'Red Hat Text';
+  color: #FFFFFF;
+}
+
+.nav-list_item{
+  padding-right: 40px;
+}
+.nav-list_item:first-child {
+  padding-left: 1px;
+}
+
+.nav-list_item:last-child {
+  padding-right: 1px;
+}
+
+
+
